@@ -1,0 +1,33 @@
+h1 {
+	font-size: 48px;
+}
+
+input[type="text"], button {
+	font-size: 20px;
+}
+
+li {
+	list-style-type: none;
+	font-size: 24px;
+	margin: 5px 0;
+}
+
+li input {
+	cursor: pointer;
+	margin: 0 15px;
+	transform: scale(1.5);
+}
+
+li.obavljeno { 
+	text-decoration: line-through;
+}
+
+.gumbic-ukloni {
+	display: inline-block;
+	margin: 0 15px;
+	cursor: pointer;
+	width: 22px;
+	height: 22px;
+	vertical-align: -3px;
+	background: url("../slike/brisi.png") no-repeat center center/contain;
+}
